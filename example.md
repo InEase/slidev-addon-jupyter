@@ -7,11 +7,10 @@ layout: cover
 
 ---
 layout: intro
-class: bg-red-100
 ---
 
 # **Part 1**
 
 ---
 
-## Part 1.1 
+<Jupyter />

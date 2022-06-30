@@ -38,9 +38,12 @@
     "vue": "^3.2.34"
   },
   "devDependencies": {
-    "vue": "^3.2.34",
     "@slidev/cli": "^0.32.1",
     "@slidev/theme-default": "^0.21.2",
-    "@vueuse/shared": "^8.5.0"
+    "@vueuse/shared": "^8.5.0",
+    "vue": "^3.2.34"
+  },
+  "dependencies": {
+    "sha1": "^1.1.1"
   }
 }
