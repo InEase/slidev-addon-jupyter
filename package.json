@@ -1,0 +1,46 @@
+{
+  "name": "slidev-addon-watermark",
+  "version": "1.0.0",
+  "description": "Watermark component for Slidev",
+  "homepage": "https://github.com/InEase/slidev-addon-watermark",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:InEase/slidev-addon-watermark.git"
+  },
+  "bugs": {
+    "url": "https://github.com/InEase/slidev-addon-watermark/issues"
+  },
+  "files": [
+    "components/*"
+  ],
+  "scripts": {
+    "dev": "slidev example.md --open",
+    "build": "slidev build example.md",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --format png"
+  },
+  "keywords": [
+    "vuejs",
+    "slidev",
+    "progress"
+  ],
+  "author": {
+    "name": "InEase/Mux",
+    "email": "InEase28@gmail.com",
+    "url": "https://github.com/InEase"
+  },
+  "license": "GPL",
+  "engines": {
+    "node": ">=14.0.0",
+    "slidev": ">=0.32.1"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.34"
+  },
+  "devDependencies": {
+    "vue": "^3.2.34",
+    "@slidev/cli": "^0.32.1",
+    "@slidev/theme-default": "^0.21.2",
+    "@vueuse/shared": "^8.5.0"
+  }
+}
